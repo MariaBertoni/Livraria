@@ -1,0 +1,121 @@
+/* DOCUMENTO CSS */
+
+body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: serif;
+	background-color: #DCCFEC;
+	color: #000000;
+}
+header {
+	background-color: #72418C;
+	height: 180px;
+	padding-top: 15px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	color: #fafafa;
+ }
+
+ header figure {
+ 	width: 100px;
+ 	height: 100px;
+ 	background-color: #ff0000;
+ 	margin: 0;
+ 	padding: 0;
+ }
+
+ main {
+ 	min-height: 900px;
+ 	margin: 0;
+ 	padding: 0;
+ 	display: flex;
+ 	justify-content: center;
+ 	padding: 20px;
+ 	flex-wrap: wrap;
+ 	background-color: #fafafa;
+
+ }
+
+ .boxlivro {width: 450px;
+ 	height: 210px;
+ 	background-color: #9EA1CA;
+ 	border-radius: 10px;
+ 	padding: 10px;
+ 	margin: 10px 10px 10px 50px;
+ 	display: flex;
+ 	transition: width 0.5s, height 0.5s;
+ 	border: ridge ;
+ }
+
+ .boxlivro:hover{
+ 	box-shadow: 6px 6px 10px #a4a4a4;
+ 	height: 250px;
+ 	width: 550px;
+ 	background-color: #72418C;
+ 	color: #fafafa;
+
+ }
+
+.boxlivro h2{margin:0 0 10px 0;
+padding: 0
+
+}
+
+ .boxlivro figure {
+      height: 200px;
+      background-color: #857D81;
+  	margin: 0 20px 0 0;
+  	padding: 0;
+  	border: 1px solid black;
+  }
+  .boxlivro img {
+  	width: 140px;
+  }
+
+  .boxlivro p {
+
+  }
+  .boxlivro span {
+  	font-size: 30px;
+  	font-weight: 900;
+  	margin: 0 0 0 40px;
+  	padding: 0;
+  }
+
+footer {
+	background-color: #72418C;
+	height: 90px;
+	padding-top: 10px;
+ 	text-align: center;
+ 	display: flex;
+ 	justify-content: left;
+ 	justify-content: center;
+	align-items: center;
+ }
+footer figure {
+	width: 50px;
+	height: 50px;
+	background-color: #0000ff;
+	margin: 0 30px 0 50px;
+	padding: 0;
+}
+footer p {
+	font-weight: 800;
+	font-size: 20px;
+	margin: 10px 0 0 0;
+	color: #fafafa;
+}
+button {
+	margin: 0px 0 -20px 50px;
+	font-family: initial;
+	width: 100px;
+	color: black;
+	background-color: paleyellow;
+
+}
+}
+
